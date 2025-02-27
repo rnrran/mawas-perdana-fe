@@ -7,8 +7,8 @@ const Offer = ({ mt }) => {
   return (
     <div className={`ltn__banner-area pb-90 ${mt ? mt : ""}`}>
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6">
+        <div className="row mt-70">
+          <div className="col-lg-6 ">
             <div className="ltn__banner-item">
               <div className="ltn__banner-img">
                 <Link href="/shop?category=new">

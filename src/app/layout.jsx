@@ -19,8 +19,8 @@ const rajdhani = Rajdhani({
 });
 
 export const metadata = {
-  title: "Autixir - Car Services and Auto Mechanic Next Js Template",
-  description: "Autixir - Car Services and Auto Mechanic Next Js Template",
+  title: "Mawas Perdana",
+  description: "Mawas Perdana Layanan Mobil",
 };
 
 export default function RootLayout({ children }) {

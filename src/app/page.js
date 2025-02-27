@@ -1,10 +1,13 @@
-import IndexMain from "@/components/layout/main/IndexMain";
+import Home2Main from "@/components/layout/main/Home2Main";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
+import React from "react";
 
-export default function Home() {
+const Home = () => {
   return (
-    <PageWrapper>
-      <IndexMain />
+    <PageWrapper headerStyle={2} footerStyle={2} footerBg={"dark"}>
+      <Home2Main />
     </PageWrapper>
   );
-}
+};
+
+export default Home;
