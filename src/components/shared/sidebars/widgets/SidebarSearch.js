@@ -16,7 +16,7 @@ const SidebarSearch = () => {
   return (
     <div className="widget ltn__search-widget">
       <h4 className="ltn__widget-title ltn__widget-title-border">
-        Search Objects
+        Cari Produk
       </h4>
       <form style={{ position: "relative" }} onSubmit={(e) => handleSearch(e)}>
         <input

@@ -18,23 +18,13 @@ const ProductDetailsTab = ({ product }) => {
             data-bs-toggle="tab"
             href="#liton_tab_details_1_1"
           >
-            Description
-          </Link>
-          <Link data-bs-toggle="tab" href="#liton_tab_details_1_2" className="">
-            Reviews
+            Deskripsi
           </Link>
         </div>
       </div>
       <div className="tab-content">
         <div className="tab-pane fade active show" id="liton_tab_details_1_1">
           <TabDescription />
-        </div>
-        {/* reviews */}
-        <div className="tab-pane fade" id="liton_tab_details_1_2">
-          <ProductDetailsReviews
-            reviews={reviews}
-            reviewsLength={reviewsLength}
-          />
         </div>
       </div>
     </div>

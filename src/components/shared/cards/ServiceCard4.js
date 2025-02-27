@@ -10,7 +10,8 @@ const ServiceCard4 = ({ service }) => {
           <span>{imgAlt}</span>
         </div>
         <h3>
-          <Link href={`/services/${id}`}>{title}</Link>
+          {/* <Link href={`/services/${id}`}>{title}</Link> */}
+          <Link href={`#`}>{title}</Link>
         </h3>
       </div>
       <div className="ltn__feature-info">

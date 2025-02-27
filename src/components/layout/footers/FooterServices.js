@@ -24,7 +24,7 @@ const FooterServices = () => {
           <ul>
             {services2?.map(({ title, id }, idx) => (
               <li key={idx}>
-                <Link href={`/services/${id}`}>{title}</Link>
+                <Link href={`#`}>{title}</Link>
               </li>
             ))}
           </ul>

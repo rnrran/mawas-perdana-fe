@@ -113,10 +113,9 @@ const ShopMain = ({ title, isSidebar, text, isCar, currentTapId }) => {
             ? `Search: ${makeText(search)}`
             : title
             ? title
-            : "Shop"
+            : "Toko"
         }
-        text={text ? text : "Shop"}
-        type={isSidebar === "primary" ? 2 : 3}
+        text={text ? text : "Toko"}
         isCapitalize={brand ? true : false}
       />
       <CommonContext

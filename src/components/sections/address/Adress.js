@@ -13,10 +13,10 @@ const Adress = () => {
               <div className="ltn__contact-address-icon">
                 <Image src={iconImage10} alt="Icon Image" />
               </div>
-              <h3>Email Address</h3>
+              <h3>Alamat Email</h3>
               <p>
-                info@webmail.com <br />
-                jobs@webexample.com
+                mp.mawas.perdana@gmail.com <br /> {""}
+                mp.mawas.perdana@gmail.com
               </p>
             </div>
           </div>
@@ -25,7 +25,7 @@ const Adress = () => {
               <div className="ltn__contact-address-icon">
                 <Image src={iconImage11} alt="Icon Image" />
               </div>
-              <h3>Phone Number</h3>
+              <h3>Nomor Telepon</h3>
               <p>
                 +0123-456789 <br /> +987-6543210
               </p>
@@ -36,10 +36,10 @@ const Adress = () => {
               <div className="ltn__contact-address-icon">
                 <Image src={iconImage12} alt="Icon Image" />
               </div>
-              <h3>Office Address</h3>
+              <h3>Alamat</h3>
               <p>
-                18/A, New Born Town Hall <br />
-                New York, US
+                Jl. Antang Raya No.58, Antang,  <br />
+                Kec. Manggala, Kota Makassar, Sulsel
               </p>
             </div>
           </div>

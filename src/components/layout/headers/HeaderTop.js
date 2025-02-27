@@ -21,13 +21,13 @@ const HeaderTop = () => {
             <div className="ltn__top-bar-menu">
               <ul>
                 <li>
-                  <Link href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                    <i className="icon-mail"></i> info@webmail.com
+                  <Link href="mailto:mp.mawas.perdana@gmail.com?Subject=Saya%20Ingin%20Bertanya">
+                    <i className="icon-mail"></i> mp.mawas.perdana@gmail.com
                   </Link>
                 </li>{" "}
                 <li>
-                  <Link href="/locations">
-                    <i className="icon-placeholder"></i> 15/A, Nest Tower, NYC
+                  <Link passHref={true} href="https://www.google.com/maps/place/Bengkel+Mobil+Mawas+Perdana/@-5.1614985,119.473814,17z/data=!3m1!4b1!4m6!3m5!1s0x5155120fff86b01:0x4d1879bace51d479!8m2!3d-5.1614985!4d119.4763889!16s%2Fg%2F11b7gxg1h7?entry=ttu&g_ep=EgoyMDI1MDIyNC4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D">
+                    <i className="icon-placeholder"></i> Jl. Antang Raya No.58, Antang
                   </Link>
                 </li>
               </ul>
@@ -41,7 +41,7 @@ const HeaderTop = () => {
                     {/* <!-- ltn__language-menu --> */}
                     <div className="ltn__drop-menu ltn__currency-menu ltn__language-menu">
                       <ul>
-                        <li>
+                        {/* <li>
                           <Link href="#" className="dropdown-toggle">
                             <span className="active-currency">English</span>
                           </Link>
@@ -65,7 +65,7 @@ const HeaderTop = () => {
                               <Link href="#">Hindi</Link>
                             </li>
                           </ul>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </li>{" "}
@@ -75,20 +75,7 @@ const HeaderTop = () => {
                       <ul>
                         <li>
                           <Link
-                            href="https://www.facebook.com"
-                            title="Facebook"
-                          >
-                            <i className="fab fa-facebook-f"></i>
-                          </Link>
-                        </li>{" "}
-                        <li>
-                          <Link href="https://x.com" title="Twitter">
-                            <i className="fa-brands fa-x-twitter"></i>
-                          </Link>
-                        </li>{" "}
-                        <li>
-                          <Link
-                            href="https://www.instagram.com"
+                            href="https://www.instagram.com/bengkel_mawasperdana?igsh=MThnbjZ1NWhxcTdtNA=="
                             title="Instagram"
                           >
                             <i className="fab fa-instagram"></i>
@@ -96,10 +83,10 @@ const HeaderTop = () => {
                         </li>{" "}
                         <li>
                           <Link
-                            href="https://www.dribbble.com"
-                            title="Dribbble"
+                            href="https://www.tiktok.com/@bengkel.mobil.mawa?lang=id-ID&is_from_webapp=1&sender_device=mobile&sender_web_id=7364243173394728464"
+                            title="Tiktok"
                           >
-                            <i className="fab fa-dribbble"></i>
+                            <i className="fab fa-tiktok"></i>
                           </Link>
                         </li>
                       </ul>

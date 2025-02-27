@@ -11,18 +11,18 @@ const Offer = ({ mt }) => {
           <div className="col-lg-6 ">
             <div className="ltn__banner-item">
               <div className="ltn__banner-img">
-                <Link href="/shop?category=new">
+                {/* <Link href="/shop?category=new"> */}
                   <Image src={bannerImage1} alt="Banner Image" />
-                </Link>
+                {/* </Link> */}
               </div>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="ltn__banner-item">
               <div className="ltn__banner-img">
-                <Link href="/shop?category=auto">
+                {/* <Link href="/shop?category=auto"> */}
                   <Image src={bannerImage2} alt="Banner Image" />
-                </Link>
+                {/* </Link> */}
               </div>
             </div>
           </div>

@@ -4,12 +4,7 @@ import React, { Suspense } from "react";
 
 const Shop = () => {
   return (
-    <PageWrapper
-      headerStyle={2}
-      headerSize={"lg"}
-      footerBg={"dark"}
-      isNotHeaderTop={true}
-    >
+    <PageWrapper headerStyle={2} footerBg={"dark"} isNotHeaderTop={true}>
       <ShopMain isSidebar="primary" />
     </PageWrapper>
   );

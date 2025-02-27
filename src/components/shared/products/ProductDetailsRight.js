@@ -199,7 +199,7 @@ const ProductDetailsRight = ({ product }) => {
             </div>
           </li>{" "}
           <li>
-            <Link
+            {/* <Link
               onClick={(e) => {
                 e.preventDefault();
                 addProductToCart(productToSave);
@@ -211,12 +211,12 @@ const ProductDetailsRight = ({ product }) => {
               data-bs-target="#add_to_cart_modal"
             >
               <i className="fas fa-shopping-cart"></i> <span>ADD TO CART</span>
-            </Link>
+            </Link> */}
           </li>
         </ul>
       </div>
       {/* add to wishlist and compare */}
-      <div className="ltn__product-details-menu-3">
+      {/* <div className="ltn__product-details-menu-3">
         <ul>
           <li>
             <Link
@@ -245,7 +245,7 @@ const ProductDetailsRight = ({ product }) => {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
       <hr />
       {/* socials */}
       <div className="ltn__social-media">

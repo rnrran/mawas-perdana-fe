@@ -4,10 +4,8 @@ import Logo from "./Logo";
 import Navbar from "./Navbar";
 import HeaderRight from "./HeaderRight";
 import MobileMenu from "./MobileMenu";
-import HeaderCart from "./HeaderCart";
 import { useHeaderContex } from "@/providers/HeaderContex";
 import ButtonOpenMobileMenu from "@/components/shared/buttons/ButtonOpenMobileMenu";
-import HeaderSearch from "./HeaderSearch";
 import HeaderRight2 from "./HeaderRight2";
 import MobileMenuShow from "./MobileMenuShow";
 import HeaderBottom from "./HeaderBottom";
@@ -65,7 +63,7 @@ const Header = () => {
               {/* logo */}
               <Logo />
               {/* navbar */}
-              {headerStyle === 5 ? <HeaderSearch /> : <Navbar />}
+              <Navbar />
               {/* header right */}
               {isNotHeaderRight ? (
                 <ButtonOpenMobileMenu />
@@ -84,7 +82,7 @@ const Header = () => {
         {/* <!-- ltn__header-bottom --> */}
         {headerStyle === 5 ? <HeaderBottom /> : ""}
       </header>
-      <HeaderCart />
+
       <MobileMenu />
       <div className="ltn__utilize-overlay"></div>
       {headerStyle === 5 ? <MobileMenuShow /> : ""}

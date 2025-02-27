@@ -11,12 +11,7 @@ const ProductDetails = ({ params }) => {
     notFound();
   }
   return (
-    <PageWrapper
-      headerStyle={2}
-      headerSize={"lg"}
-      footerBg={"dark"}
-      isNotHeaderTop={true}
-    >
+    <PageWrapper headerStyle={2} footerBg={"dark"} isNotHeaderTop={true}>
       <ProductDetailsMain type={1} />
     </PageWrapper>
   );

@@ -16,38 +16,37 @@ const About4 = () => {
             <div className="about-us-info-wrap">
               <div className="section-title-area ltn__section-title-2">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  {"//"} RELIABLE SERVICES
+                  {"//"} LAYANAN TERPERCAYA
                 </h6>
                 <h1 className="section-title">
-                  We are Qualified & Professional<span>.</span>
+                  Kami Profesional & Berkualifikasi<span>.</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                  Kami menyediakan layanan perbaikan dan perawatan kendaraan dengan standar profesional tertinggi, 
+                  ditangani oleh tenaga ahli berpengalaman untuk memastikan kendaraan Anda tetap dalam kondisi prima.
                 </p>
               </div>
+
               <div className="about-us-info-wrap-inner about-us-info-devide">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                  Dengan komitmen terhadap kualitas dan keandalan, kami menggunakan peralatan modern 
+                  dan teknik terbaru untuk memberikan hasil yang memuaskan. Dukungan kami tersedia 24/7, 
+                  memastikan Anda mendapat layanan yang cepat dan efisien kapan pun dibutuhkan.
                 </p>
+
                 <div className="list-item-with-icon">
                   <ul>
                     <li>
-                      <Link href="/contact">24/7 Online Support</Link>
+                      <Link href="/contact">Dukungan Online 24/7</Link>
                     </li>
                     <li>
-                      <Link href="/team">Expert Team</Link>
+                      <Link href="/team">Tim Ahli</Link>
                     </li>
                     <li>
-                      <Link href="/services/1">Pure Equipment</Link>
+                      <Link href="/services/">Peralatan Modern</Link>
                     </li>
                     <li>
-                      <Link href="/shop">Unlimited Product</Link>
+                      <Link href="/shop">Ketersediaan Produk Lebih</Link>
                     </li>
                   </ul>
                 </div>

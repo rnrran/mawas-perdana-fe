@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 const Features2 = ({ pt }) => {
-  const features = getAllFeatues()?.filter(({ id }) => id > 3 && id < 8);
+  const features = getAllFeatues()?.filter(({ id }) => id > 2 && id < 7);
   return (
     <div className={`ltn__feature-area pb-90 ${pt ? pt : ""}`}>
       <div className="container">
@@ -15,7 +15,7 @@ const Features2 = ({ pt }) => {
                 {"//"} features {"//"}
               </h6>
               <h1 className="section-title">
-                Core Features<span>.</span>
+                Fitur Utama<span>.</span>
               </h1>
             </div>
           </div>

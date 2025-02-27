@@ -11,7 +11,7 @@ const ProductSizes = () => {
   return (
     <div className="widget ltn__tagcloud-widget ltn__size-widget">
       <h4 className="ltn__widget-title ltn__widget-title-border">
-        Product Size
+        Ukuran Produk
       </h4>
       <ul>
         {sizes?.map((size, idx) => (

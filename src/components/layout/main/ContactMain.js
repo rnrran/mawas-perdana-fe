@@ -7,9 +7,9 @@ import React from "react";
 const ContactMain = () => {
   return (
     <main>
-      <HeroPrimary title={"Contact Us"} text="Contact" />
+      <HeroPrimary title={"Hubungi Kami"} text="Kontak" />
       <Adress />
-      <ContactPrimary />
+      {/* <ContactPrimary /> */}
       <Map2 />
     </main>
   );

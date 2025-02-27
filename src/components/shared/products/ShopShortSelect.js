@@ -5,23 +5,23 @@ import { useEffect } from "react";
 const selectInputs = [
   {
     value: "default",
-    name: "Default Sorting",
+    name: "Urutan Default",
   },
   {
     value: "popularity",
-    name: "Sort by popularity",
+    name: "Urutkan Berdasarkan Popularitas",
   },
   {
     value: "new",
-    name: "Sort by new arrivals",
+    name: "Urutkan Berdasarkan Tanggal Rilis",
   },
   {
     value: "price ascending",
-    name: "Sort by price: low to high",
+    name: "Dari Harga Terendah",
   },
   {
     value: "price descending",
-    name: "Sort by price: high to low",
+    name: "Dari Harga Tertinggi",
   },
 ];
 const ShopShortSelect = ({ setArrangeInput }) => {

@@ -9,13 +9,13 @@ import Testimonials3 from "@/components/sections/testimonils/Testimonials3";
 const AboutMain = () => {
   return (
     <main>
-      <HeroPrimary title="About Us" text="About Us" />
+      <HeroPrimary title="Tentang Kami" text="Tentang Kami" />
       <About3 />
       <Services4 />
       <CallToAction4 />
       <Skills isBg={true} />
-      <Testimonials3 />
-      <Blogs2 />
+      {/* <Testimonials3 /> */}
+      {/* <Blogs2 /> */}
     </main>
   );
 };

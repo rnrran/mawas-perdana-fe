@@ -18,7 +18,7 @@ const ProductCategories = () => {
   return (
     <div className="widget ltn__menu-widget">
       <h4 className="ltn__widget-title ltn__widget-title-border">
-        Product categories
+        Kategori Produk
       </h4>
       <ul>
         {categories?.map((category, idx) => (

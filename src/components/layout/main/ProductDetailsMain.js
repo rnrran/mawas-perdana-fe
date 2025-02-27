@@ -9,9 +9,8 @@ const ProductDetailsMain = ({ title, text, type, isNotSidebar, isCar }) => {
   return (
     <main>
       <HeroPrimary
-        title={title ? title : "Product Details"}
-        text={text ? text : "Product Details"}
-        type={3}
+        title={title ? title : "Detail Produk"}
+        text={text ? text : "Detail Produk"}
       />
       <CommonContext value={{ type, isNotSidebar, isCar }}>
         <ProductDetailsPrimary />

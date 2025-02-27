@@ -8,7 +8,7 @@ const SidebarTopRatedProducs = () => {
   return (
     <div className="widget ltn__top-rated-product-widget">
       <h4 className="ltn__widget-title ltn__widget-title-border">
-        Top Rated Product
+        Rating Terbaik !
       </h4>
       <ul>
         {products?.map((product, idx) => (

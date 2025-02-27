@@ -19,23 +19,23 @@ const Hero2 = () => {
                   <div className="slide-item-info">
                     <div className="slide-item-info-inner ltn__slide-animation">
                       <h6 className="slide-sub-title ltn__secondary-color animated text-uppercase">
-                        {"//  any kind of car you will get  //"}
+                        {"//  siap melayani keluh kesah mobil anda  //"}
                       </h6>
                       <h1 className="slide-title animated ">
-                        Professional Car <br /> Service Provide
+                        Mawas Perdana <br /> Layanan Perawatan Mobil
                       </h1>
                       <div className="btn-wrapper animated">
                         <Link
                           href="/services"
                           className="theme-btn-1 btn btn-effect-1"
                         >
-                          OUR SERVICES
+                          LAYANAN KAMI
                         </Link>{" "}
                         <Link
                           href="/about"
                           className="btn btn-transparent btn-effect-2 white-color"
                         >
-                          LEARN MORE
+                          PELAJARI LEBIH LANJUT
                         </Link>
                       </div>
                     </div>

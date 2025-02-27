@@ -126,7 +126,7 @@ const ProductCardPrimary2 = ({ product, isShowDisc, isCar }) => {
                 <i className="far fa-eye"></i>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 onClick={(e) => {
                   e.preventDefault();
@@ -157,7 +157,7 @@ const ProductCardPrimary2 = ({ product, isShowDisc, isCar }) => {
               >
                 <i className="far fa-heart"></i>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -25,29 +25,17 @@ const ServicesMain = ({ title }) => {
   return (
     <main>
       <HeroPrimary
-        title={
-          category
-            ? `Category: ${makeText(category)}`
-            : title
-            ? title
-            : "What We Do"
-        }
-        text={"Services"}
+        title={`Apa Yang Bisa Kami Bantu`}
+        text={"Layanan"}
       />
-      {!category ? <About4 /> : ""}
+      <About4 />
       <CommonContext value={{ filteredServices, category }}>
         <Services1 isPrimary={true} />
       </CommonContext>
 
-      {!category ? (
-        <>
-          <History />
-          <Videos2 />
-          <Blogs2 />
-        </>
-      ) : (
-        ""
-      )}
+      <History />
+      <Videos2 />
+      {/* <Blogs2 /> */}
     </main>
   );
 };

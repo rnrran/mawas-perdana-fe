@@ -1,24 +1,4 @@
-import Image from "next/image";
-import homeImage1 from "@/assets/img/home-demos/home-1.jpg";
-import homeImage2 from "@/assets/img/home-demos/home-2.jpg";
-import homeImage3 from "@/assets/img/home-demos/home-3.jpg";
-import homeImage4 from "@/assets/img/home-demos/home-4.jpg";
-import homeImage5 from "@/assets/img/home-demos/home-5.jpg";
-import homeImage6 from "@/assets/img/home-demos/home-6.jpg";
-import homeImage7 from "@/assets/img/home-demos/home-7.jpg";
-import homeImage8 from "@/assets/img/home-demos/home-8.jpg";
-import homeImage9 from "@/assets/img/home-demos/home-9.jpg";
-import homeImage10 from "@/assets/img/home-demos/home-10.jpg";
-import homeImage11 from "@/assets/img/home-demos/home-11.jpg";
-import homeImage12 from "@/assets/img/home-demos/home-12.jpg";
-import homeImage13 from "@/assets/img/home-demos/home-13.jpg";
-import homeImage14 from "@/assets/img/home-demos/home-14.jpg";
-import homeImage15 from "@/assets/img/home-demos/home-15.jpg";
-import homeImage16 from "@/assets/img/home-demos/home-16.jpg";
-import dropdownBannerImage1 from "@/assets/img/banner/menu-banner-1.jpg";
-import HomeDropdown from "./HomeDropdown";
 import CommonDropdown from "./CommonDropdown";
-import PagesDropdown from "./PagesDropdown";
 import NavItem from "./NavItem";
 import Link from "next/link";
 import { useHeaderContex } from "@/providers/HeaderContex";
@@ -28,109 +8,20 @@ const Navbar = () => {
   const { headerStyle, headerSize, isNavbarAppointmentBtn } = useHeaderContex();
   const navItemsRaw = [
     {
-      name: "Home",
+      name: "Beranda",
       path: "/",
       dropdown: null,
-      dropdownSection: [
-        {
-          title: "Home Pages",
-          path: "#",
-          dropdownItems: [
-            {
-              name: "Home Style - 01",
-              img: homeImage1,
-              path: "/",
-            },
-            {
-              name: "Home Style - 02",
-              img: homeImage2,
-              path: "/home-2",
-            },
-            {
-              name: "Home Style - 03",
-              img: homeImage3,
-              path: "/home-3",
-            },
-            {
-              name: "Home Style - 04",
-              img: homeImage4,
-              path: "/home-4",
-            },
-            {
-              name: "Home Style - 05",
-              img: homeImage5,
-              path: "/home-5",
-              label: "video",
-            },
-            {
-              name: "Home Style - 06",
-              img: homeImage6,
-              path: "/home-6",
-            },
-            {
-              name: "Home Style - 07",
-              img: homeImage7,
-              path: "/home-7",
-            },
-            {
-              name: "Home Style - 08",
-              img: homeImage8,
-              path: "/home-8",
-              label: "map",
-            },
-          ],
-        },
-        {
-          title: "Home Pages",
-          path: "#",
-          dropdownItems: [
-            {
-              name: "Home Style - 09",
-              img: homeImage9,
-              path: "/home-9",
-            },
-            {
-              name: "Home Style - 10",
-              img: homeImage10,
-              path: "/home-10",
-            },
-            {
-              name: "Home Style - 11",
-              img: homeImage11,
-              path: "/home-11",
-            },
-            {
-              name: "Home Style - 12",
-              img: homeImage12,
-              path: "/home-12",
-            },
-            {
-              name: "Home Style - 13",
-              img: homeImage13,
-              path: "/home-13",
-            },
-            {
-              name: "Home Style - 14",
-              img: homeImage14,
-              path: "/home-14",
-            },
-            {
-              name: "Home Style - 15",
-              img: homeImage15,
-              path: "/home-15",
-            },
-            {
-              name: "Home Style - 16",
-              img: homeImage16,
-              path: "/home-16",
-            },
-          ],
-        },
-      ],
+      isNestedDropdown: null,
     },
     {
-      name: "About",
-      path: "#",
+      name: "Toko",
+      path: "/shop",
+      dropdown: null,
+      isNestedDropdown: null,
+    },
+    {
+      name: "Tentang Kami",
+      path: "/about",
       dropdown: null,
       dropdownSection: [
         {
@@ -138,330 +29,56 @@ const Navbar = () => {
           path: "#",
           dropdownItems: [
             {
-              name: "About",
+              name: "Tentang Kami",
 
               path: "/about",
             },
             {
-              name: "Services",
+              name: "Layanan",
 
               path: "/services",
             },
-            {
-              name: "Service Details",
+            // {
+            //   name: "Portfolio",
 
-              path: "/services/1",
-            },
+            //   path: "/portfolio",
+            // },
             {
-              name: "Portfolio",
-
-              path: "/portfolio",
-            },
-            {
-              name: "Portfolio - 02",
-
-              path: "/portfolio-2",
-            },
-            {
-              name: "Portfolio Details",
-              path: "/portfolio/1",
-            },
-            {
-              name: "Team",
+              name: "Tim",
 
               path: "/team",
-            },
-            {
-              name: "Team Details",
-
-              path: "/team/1",
             },
             {
               name: "FAQ",
 
               path: "/faq",
             },
-            {
-              name: "Google Map Locations",
+            // {
+            //   name: "Google Map Locations",
 
-              path: "/locations",
-            },
+            //   path: "/locations",
+            // },
           ],
         },
       ],
     },
     {
-      name: "Shop",
-      path: "/shop",
-      dropdown: null,
-      isNestedDropdown: null,
-      dropdownSection: [
-        {
-          title: null,
-          path: "#",
-          dropdownItems: [
-            {
-              name: "Shop",
-
-              path: "/shop",
-            },
-            {
-              name: "Shop Grid",
-
-              path: "/shop-grid",
-            },
-            {
-              name: "Shop Left sidebar",
-
-              path: "/shop-left-sidebar",
-            },
-            {
-              name: "Shop right sidebar",
-
-              path: "/shop-right-sidebar",
-            },
-            {
-              name: "Shop details",
-
-              path: "/products/1",
-            },
-            {
-              name: "Shop details 02",
-              path: "/shop-details-2",
-            },
-            {
-              name: "Other Pages",
-              path: "/team",
-              nestedDropdown: null,
-              nestedDropdownItems: [
-                {
-                  name: "Cart",
-                  path: "/cart",
-                },
-                {
-                  name: "Wishlist",
-                  path: "/wishlist",
-                },
-                {
-                  name: "Checkout",
-                  path: "/checkout",
-                },
-                {
-                  name: "Order Tracking",
-                  path: "/order-tracking",
-                },
-                {
-                  name: "My Account",
-                  path: "/account",
-                },
-                {
-                  name: "Sign in",
-                  path: "/login",
-                },
-                {
-                  name: "Register",
-                  path: "/register",
-                },
-              ],
-            },
-            {
-              name: "Shop Car Grid",
-
-              path: "/shop-car-grid",
-            },
-            {
-              name: "Shop Car Left sidebar",
-
-              path: "/shop-car-left-sidebar",
-            },
-            {
-              name: "Shop Car right sidebar",
-
-              path: "/shop-car-right-sidebar",
-            },
-            {
-              name: "Shop Car details",
-
-              path: "/shop-details-3",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      name: "News",
-      path: "#",
-      dropdown: null,
-      dropdownSection: [
-        {
-          title: null,
-          path: "#",
-          dropdownItems: [
-            {
-              name: "News",
-
-              path: "/blogs",
-            },
-            {
-              name: "News Grid",
-
-              path: "/blogs-grid",
-            },
-            {
-              name: "News Left sidebar",
-
-              path: "/blog-left-sidebar",
-            },
-            {
-              name: "News Right sidebar",
-
-              path: "/blog-right-sidebar",
-            },
-            {
-              name: "News details",
-
-              path: "/blogs/1",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      name: "Pages",
-      path: "#",
-      dropdown: null,
-      dropdownSection: [
-        {
-          title: "Inner Pages",
-          path: "#",
-          dropdownItems: [
-            {
-              name: "Portfolio",
-
-              path: "/portfolio",
-            },
-            {
-              name: "Portfolio - 02",
-
-              path: "/portfolio-2",
-            },
-            {
-              name: "Portfolio",
-
-              path: "/portfolio/1",
-            },
-            {
-              name: "Team",
-
-              path: "/team",
-            },
-            {
-              name: "Team Details",
-
-              path: "/team/1",
-            },
-            {
-              name: "FAQ",
-
-              path: "/faq",
-            },
-          ],
-        },
-        {
-          title: "Inner Pages",
-          path: "#",
-          dropdownItems: [
-            {
-              name: "History",
-
-              path: "/history",
-            },
-            {
-              name: "Appointment",
-
-              path: "/appointment",
-            },
-            {
-              name: "Google Map Locations",
-
-              path: "/locations",
-            },
-            {
-              name: "404",
-
-              path: "/error",
-            },
-            {
-              name: "Contact",
-
-              path: "/contact",
-            },
-            {
-              name: "Coming Soon",
-
-              path: "/coming-soon",
-            },
-          ],
-        },
-        {
-          title: "Shop Pages",
-          path: "#",
-          dropdownItems: [
-            {
-              name: "Shop",
-
-              path: "/shop",
-            },
-            {
-              name: "Shop Left sidebar",
-
-              path: "/shop-left-sidebar",
-            },
-            {
-              name: "Shop right sidebar",
-
-              path: "/shop-right-sidebar",
-            },
-            {
-              name: "Shop Grid",
-
-              path: "/shop-grid",
-            },
-            {
-              name: "Shop details",
-
-              path: "/products/1",
-            },
-            {
-              name: "Cart",
-
-              path: "/cart",
-            },
-          ],
-        },
-        {
-          title: null,
-          bannerImg: dropdownBannerImage1,
-          path: "/shop",
-        },
-      ],
-    },
-    {
-      name: "Contact",
+      name: "Kontak",
       path: "/contact",
       dropdown: null,
+      isNestedDropdown: null,
     },
   ];
   const navItems = navItemsRaw?.map((navItem, idx) => ({
     ...navItem,
-    dropdown:
-      idx === 0 ? (
-        <HomeDropdown itmes={navItem?.dropdownSection} />
-      ) : idx > 0 && idx < 4 ? (
-        <CommonDropdown items={navItem?.dropdownSection} />
-      ) : idx === 4 ? (
-        <PagesDropdown itmes={navItem?.dropdownSection} />
-      ) : null,
+    dropdown: <CommonDropdown items={navItem?.dropdownSection} />
+      // idx === 0 ? (
+      //   <HomeDropdown itmes={navItem?.dropdownSection} />
+      // ) : idx > 0 && idx < 4 ? (
+      //   <CommonDropdown items={navItem?.dropdownSection} />
+      // ) : idx === 4 ? (
+      //   <PagesDropdown itmes={navItem?.dropdownSection} />
+      // ) : null,
   }));
   return (
     <div
@@ -485,16 +102,6 @@ const Navbar = () => {
               {navItems?.map((item, idx) => (
                 <NavItem key={idx} item={item} />
               ))}
-              {isNavbarAppointmentBtn ||
-              headerSize === "lg" ||
-              headerStyle === 2 ||
-              headerStyle === 4 ? (
-                <li className="special-link">
-                  <Link href="/appointment">GET APPOINTMENT</Link>
-                </li>
-              ) : (
-                ""
-              )}
             </ul>
           </div>
         </nav>

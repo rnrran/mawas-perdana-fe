@@ -4,11 +4,11 @@ const ShopDataShowing = ({ limit, totalItems, firstItem, lastItem }) => {
   return (
     <div className="showing-product-number text-right">
       <span>
-        Showing{" "}
+        Menampilkan{" "}
         {firstItem === lastItem || totalItems <= limit
           ? lastItem
           : `${firstItem}–${lastItem}`}{" "}
-        of {totalItems} results
+        of {totalItems} hasil
       </span>
     </div>
   );

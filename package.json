@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.9",
     "moment": "^2.30.1",

@@ -12,8 +12,7 @@ const CallToAction4 = () => {
           <div className="col-lg-12">
             <div className="call-to-action-inner call-to-action-inner-5 text-center">
               <h2 className="white-color text-decoration">
-                24/7 Availability, Make{" "}
-                <Link href="/appointment">An Appointment</Link>
+                Tersedia dari jam 10-17 WITA, Senin-Sabtu
               </h2>
             </div>
           </div>

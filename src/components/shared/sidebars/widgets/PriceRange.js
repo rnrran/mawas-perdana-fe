@@ -1,17 +1,15 @@
 "use client";
 
-import { useCommonContext } from "@/providers/CommonContext";
-import { useEffect, useRef } from "react";
 
 const PriceRange = () => {
   return (
     <div className="widget ltn__price-filter-widget">
       <h4 className="ltn__widget-title ltn__widget-title-border">
-        Filter by price
+        Filter dengan Harga
       </h4>
       <div className="price_filter">
         <div className="price_slider_amount">
-          <input type="submit" value="Your range:" />
+          <input type="submit" value="Rentang Anda:" />
           <input
             type="text"
             className="amount"

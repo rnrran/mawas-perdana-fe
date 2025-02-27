@@ -4,7 +4,7 @@ import { useFooterContex } from "@/providers/FooterContext";
 const FooterTimeSchedule = () => {
   const { footerStyle, footerBg } = useFooterContex();
   return (
-    <div className="col-xl-4 col-md-5">
+    <div className="col-xl-4 col-md-6 col-sm-12 col-12">
       <div
         className={`footer-widget ltn__footer-timeline-widget ltn__footer-timeline-widget-1 ${
           (!footerStyle || footerStyle === 1) && footerBg === "dark"

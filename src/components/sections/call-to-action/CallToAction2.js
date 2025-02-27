@@ -16,7 +16,7 @@ const CallToAction2 = () => {
             <div className="call-to-action-inner call-to-action-inner-4 text-center">
               <div className="section-title-area ltn__section-title-2">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  {"// "} any question you have {"//"}
+                  {"// "} ada pertanyaan ? {"//"}
                 </h6>
                 <h1 className="section-title white-color">897-876-987-90</h1>
               </div>
@@ -25,13 +25,13 @@ const CallToAction2 = () => {
                   href="tel:+123456789"
                   className="theme-btn-1 btn btn-effect-1"
                 >
-                  MAKE A CALL
+                  HUBUNGI VIA WA
                 </Link>{" "}
                 <Link
                   href="/contact"
                   className="btn btn-transparent btn-effect-4 white-color"
                 >
-                  CONTACT US
+                  KONTAK KAMI
                 </Link>
               </div>
             </div>

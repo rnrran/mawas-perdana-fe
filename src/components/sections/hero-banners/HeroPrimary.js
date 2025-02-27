@@ -24,7 +24,7 @@ const HeroPrimary = ({ text, title, item, type, mb, isCapitalize }) => {
             <div className="ltn__breadcrumb-inner ltn__breadcrumb-inner-2 justify-content-between">
               <div className="section-title-area ltn__section-title-2">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  {"//"} Welcome to our company
+                  {"//"} Selamat Datang Di Website Kami
                 </h6>
                 <h1
                   className={`section-title white-color ${
@@ -37,7 +37,7 @@ const HeroPrimary = ({ text, title, item, type, mb, isCapitalize }) => {
               <div className="ltn__breadcrumb-list">
                 <ul>
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/">Beranda</Link>
                   </li>{" "}
                   {item ? (
                     <li>

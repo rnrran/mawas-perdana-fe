@@ -29,7 +29,7 @@ const Logo = ({ sticky }) => {
               //     ? logoImage2
               //     : logoImage1
               // }
-              src="/img/logo/logo.png"
+              src="/img/logo/logo-horizontal.png"
               width={150}
               height={150}
               alt="Logo"
@@ -48,7 +48,7 @@ const Logo = ({ sticky }) => {
               <i className="icon-call"></i>
             </div>
             <div className="get-support-info">
-              <h6>Get Support</h6>
+              <h6>Dapatkan Bantuan</h6>
               <h4>
                 <Link href="tel:+123456789">123-456-789-10</Link>
               </h4>

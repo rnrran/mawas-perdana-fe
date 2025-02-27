@@ -59,7 +59,7 @@ const ProductCardPrimary = ({ product, isShowDisc }) => {
                 <i className="far fa-eye"></i>
               </Link>
             </li>{" "}
-            <li>
+            {/* <li>
               <Link
                 onClick={(e) => {
                   e.preventDefault();
@@ -90,7 +90,7 @@ const ProductCardPrimary = ({ product, isShowDisc }) => {
               >
                 <i className="far fa-heart"></i>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -13,9 +13,9 @@ const About3 = () => {
               <div className="about-us-img-info about-us-img-info-2">
                 <div className="about-us-img-info-inner">
                   <h1>
-                    25<span>+</span>
+                    20<span>+</span>
                   </h1>
-                  <h6>Years Experience</h6>
+                  <h6>Tahun Pengalaman</h6>
                 </div>
               </div>
             </div>
@@ -24,26 +24,27 @@ const About3 = () => {
             <div className="about-us-info-wrap">
               <div className="section-title-area ltn__section-title-2">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  {"//"} About Us
+                  {"//"} Tentang Kami
                 </h6>
                 <h1 className="section-title">
-                  Safety Is Our First & Main Priority<span>.</span>
+                  Keamanan Adalah Prioritas Utama Kami<span>.</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                Kami berkomitmen untuk menyediakan layanan perbaikan kendaraan yang aman 
+                dan berkualitas tinggi, memastikan setiap detail diperiksa dengan cermat 
+                untuk memberikan keamanan terbaik bagi pelanggan kami.
                 </p>
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed
-                do eius mod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad min im veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequ at.{" "}
+              Dengan pengalaman bertahun-tahun dalam industri otomotif, kami terus berinovasi 
+              untuk memenuhi kebutuhan pelanggan. Tim kami terdiri dari teknisi yang ahli 
+              dan berpengalaman, didukung oleh teknologi terkini guna memberikan layanan yang 
+              cepat, aman, dan terpercaya.{" "}
               </p>
               <div className="btn-wrapper">
                 <Link href="/services" className="theme-btn-3 btn btn-effect-4">
-                  OUR SERVICES
+                  LAYANAN KAMI
                 </Link>
               </div>
             </div>

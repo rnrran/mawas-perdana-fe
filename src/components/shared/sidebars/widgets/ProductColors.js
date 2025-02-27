@@ -30,7 +30,7 @@ const ProductColors = () => {
   return (
     <div className="widget ltn__color-widget">
       <h4 className="ltn__widget-title ltn__widget-title-border">
-        Product Color
+        Warna Produk
       </h4>
       <ul>
         {colors?.map((color, idx) => (

@@ -25,7 +25,7 @@ const BlogTags = () => {
   return (
     <div className="widget ltn__tagcloud-widget">
       <h4 className="ltn__widget-title ltn__widget-title-border">
-        Popular Tags
+        Tag Populer
       </h4>
       <ul>
         {tags?.map((tag, idx) => (

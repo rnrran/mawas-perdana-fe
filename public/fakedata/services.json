@@ -1,97 +1,97 @@
 [
   {
     "id": 1,
-    "title": "There are many variations of passages of Lorem.",
+    "title": "Diagnosa Mesin",
     "services": [
       "Tire puncher with cleaning",
       "Tire Customization",
       "Tire check & fixing",
       "Tire change & color"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Sagittis purus sit amet volutpat consequat mauris nunc congue nisi",
     "detailsImg": null,
     "img": null,
-    "category": "engine repairing",
+    "category": "glass repair",
     "duration": "1500"
   },
   {
     "id": 2,
-    "title": "Majority have suffered alteration in some form.",
+    "title": "Mesin Rusak",
     "services": [
       "Tire puncher with cleaning",
       "Tire Customization",
       "Tire check & fixing",
       "Tire change & color"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Sagittis purus sit amet volutpat consequat mauris nunc congue nisi",
     "detailsImg": null,
     "img": null,
-    "category": "car repair",
+    "category": "engine repairing",
     "duration": "1700"
   },
   {
     "id": 3,
-    "title": "Excellece in automotive services since 1996.",
+    "title": "Evakuasi AC",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Perbaikan sistem pendingin udara kendaraan untuk memastikan kenyamanan maksimal saat berkendara",
     "detailsImg": null,
     "img": null,
-    "category": "filters repair",
+    "category": "perbaikan mesin",
     "duration": "1900"
   },
   {
     "id": 4,
-    "title": "There are many variations of passages of Lorem.",
+    "title": "Servis Rem Anti Kunci",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Perawatan sistem rem ABS untuk keamanan berkendara yang optimal pada berbagai kondisi jalan",
     "detailsImg": null,
     "img": null,
-    "category": "tire repair",
+    "category": "perbaikan mesin",
     "duration": "2100"
   },
   {
     "id": 5,
-    "title": "Majority have suffered alteration in some form.",
+    "title": "Diagnosa Komputer",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Analisis sistem kendaraan menggunakan teknologi diagnostik canggih untuk menemukan masalah tersembunyi.",
     "detailsImg": null,
     "img": null,
-    "category": "break repair",
-    "duration": "2400"
+    "category": "perbaikan mesin",
+    "duration": "1500"
   },
   {
     "id": 6,
-    "title": "Excellece in automotive services since 1996.",
+    "title": "Peningkatan Performa",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Modifikasi kendaraan untuk meningkatkan tenaga, akselerasi dan efisiensi bahan bakar.",
     "detailsImg": null,
     "img": null,
-    "category": "glass repair",
-    "duration": "2700"
+    "category": "perbaikan mobil",
+    "duration": "1900"
   },
   {
     "id": 7,
-    "title": "Engine Diagnostics",
+    "title": "Cuci Mobil",
     "services": [
       "Tire puncher with cleaning",
       "Tire Customization",
@@ -106,7 +106,7 @@
   },
   {
     "id": 8,
-    "title": "Vehicles Damaged",
+    "title": "Konsultasi Gratis",
     "services": [
       "Tire puncher with cleaning",
       "Tire Customization",
@@ -121,137 +121,137 @@
   },
   {
     "id": 9,
-    "title": "Air Conditioning Evac",
+    "title": "Layanan Darurat",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Sagittis purus sit amet volutpat consequat mauris nunc congue nisi",
+    "desc": "Perbaikan sistem pendingin udara kendaraan untuk memastikan kenyamanan maksimal saat berkendara",
     "detailsImg": null,
     "img": null,
-    "category": "engine repairing",
+    "category": "perbaikan mesin",
     "duration": "1900"
   },
   {
     "id": 10,
-    "title": "Anti Lock Brake Service",
+    "title": "Peningkatan Performa",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Sagittis purus sit amet volutpat consequat mauris nunc congue nisi",
+    "desc": "Perawatan sistem rem ABS untuk keamanan berkendara yang optimal pada berbagai kondisi jalan",
     "detailsImg": null,
     "img": null,
-    "category": "engine repairing",
+    "category": "perbaikan mesin",
     "duration": "2100"
   },
   {
     "id": 11,
-    "title": "Computer Diagnostics",
+    "title": "Diagnosa Komputer",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Analisis sistem kendaraan menggunakan teknologi diagnostik canggih untuk menemukan masalah tersembunyi.",
     "detailsImg": null,
     "img": null,
-    "category": "engine repairing",
+    "category": "perbaikan mesin",
     "duration": "1500"
   },
   {
     "id": 12,
-    "title": "Performance Upgrades",
+    "title": "Peningkatan Performa",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Modifikasi kendaraan untuk meningkatkan tenaga, akselerasi dan efisiensi bahan bakar.",
     "detailsImg": null,
     "img": null,
-    "category": "car repair",
+    "category": "perbaikan mobil",
     "duration": "1900"
   },
   {
     "id": 13,
-    "title": "Car Wash & Cleaning",
+    "title": "Cuci Mobil",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Layanan pembersihan menyeluruh untuk interior dan eksterior mobil Anda agar tetap tampil prima.",
     "detailsImg": null,
     "img": null,
-    "category": "car repair",
+    "category": "perbaikan mobil",
     "duration": "2100"
   },
   {
     "id": 14,
-    "title": "Choose your Repairs",
+    "title": "Pilihan Perbaikan",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Berbagai pilihan layanan perbaikan sesuai dengan kebutuhan dan anggaran yang Anda miliki.",
     "detailsImg": null,
     "img": null,
-    "category": "car repair",
+    "category": "perbaikan mobil",
     "duration": "1500"
   },
   {
     "id": 15,
-    "title": "Free Consultancy",
+    "title": "Konsultasi Gratis",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Layanan konsultasi tanpa biaya untuk membantu Anda mendapatkan solusi terbaik untuk kendaraan.",
     "detailsImg": null,
     "img": null,
-    "category": "filters repair",
+    "category": "perbaikan filter",
     "duration": "1700"
   },
   {
     "id": 16,
-    "title": "Emergency Time",
+    "title": "Layanan Darurat",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "desc": "Bantuan cepat untuk situasi darurat kendaraan Anda kapanpun dan dimanapun Anda membutuhkan.",
     "detailsImg": null,
     "img": null,
-    "category": "filters repair",
+    "category": "perbaikan filter",
     "duration": "1900"
   },
   {
     "id": 17,
-    "title": "Performance Upgrades",
+    "title": "Peningkatan Performa",
     "services": [
-      "Tire puncher with cleaning",
-      "Tire Customization",
-      "Tire check & fixing",
-      "Tire change & color"
+      "Perbaikan ban dengan pembersihan",
+      "Kustomisasi Ban",
+      "Pemeriksaan & perbaikan ban",
+      "Penggantian & pewarnaan ban"
     ],
-    "desc": "Lorem ipsum dolor sit amet, consect",
+    "desc": "Modifikasi dan penyetelan kendaraan untuk meningkatkan kinerja keseluruhan.",
     "detailsImg": null,
     "img": null,
-    "category": "filters repair",
+    "category": "perbaikan filter",
     "duration": "2100"
   },
   {
@@ -391,7 +391,7 @@
   },
   {
     "id": 27,
-    "title": "All Kind Brand",
+    "title": "Tersedia Banyak Merek",
     "services": [
       "Tire puncher with cleaning",
       "Tire Customization",
@@ -406,7 +406,7 @@
   },
   {
     "id": 28,
-    "title": "Brake Fluid Exchange",
+    "title": "Penggantian Cairan Rem",
     "services": [
       "Tire puncher with cleaning",
       "Tire Customization",
@@ -421,7 +421,7 @@
   },
   {
     "id": 29,
-    "title": "Maintenance Package",
+    "title": "Maintenance Part Mobil",
     "services": [
       "Tire puncher with cleaning",
       "Tire Customization",

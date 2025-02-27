@@ -18,7 +18,7 @@ const Footer = () => {
   const { footerStyle, footerBg } = useFooterContex();
   return (
     <>
-      {footerStyle === 2 ? <FooterFeatured /> : ""}
+      <FooterFeatured /> 
       <footer
         className={`ltn__footer-area ${
           footerStyle === 3 ? "" : "ltn__footer-2"
@@ -46,30 +46,14 @@ const Footer = () => {
             footerStyle === 2 && footerBg === "dark" ? footerImage1.src : ""
           }
         >
-          <div className={footerStyle === 3 ? "container-fluid" : "container"}>
-            <div className="row">
-              {footerStyle === 3 ? (
-                <>
-                  <FooterAbout2 />
-                  <FooterCompany />
-                  <FooterServices2 />
-                  <FooterCustomerCare />
-                  <FooterNewsletter />
-                </>
-              ) : (
-                <>
-                  {footerStyle === 2 && footerBg === "dark" ? (
-                    <FooterAbout />
-                  ) : (
-                    <FooterTimeSchedule />
-                  )}
-
-                  <FooterServices />
-                  <FooterNewsFeeds />
-                </>
-              )}
+          <div className="container mx-auto">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+              <FooterAbout />
+              <FooterServices />
+              <FooterNewsletter />
             </div>
           </div>
+
         </div>
         {footerStyle === 3 ? <Copyright2 /> : <Copyright />}
       </footer>
