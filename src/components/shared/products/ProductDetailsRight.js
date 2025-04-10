@@ -24,7 +24,7 @@ const ProductDetailsRight = ({ product }) => {
   const { addProductToCart } = useCartContext();
   const { addProductToWishlist } = useWishlistContext();
   // dom referance
-  const inputRef = useRef(null);
+  // const inputRef = useRef(null);
   // states
   const [quantity, setQuantity] = useState(1);
   const [currentColor, setCurrentColor] = useState(color);
@@ -45,24 +45,24 @@ const ProductDetailsRight = ({ product }) => {
     purchaseDate: purchaseDateMilliseconds,
   };
 
-  useEffect(() => {
-    const currentDate = Date.now();
-    const calanderFormat = moment(currentDate).format("YYYY-MM-DD");
-    setPurchaseDate(calanderFormat);
-    const inputParent = inputRef.current;
-    const input = inputParent.querySelector("input");
+  // useEffect(() => {
+  //   const currentDate = Date.now();
+  //   const calanderFormat = moment(currentDate).format("YYYY-MM-DD");
+  //   setPurchaseDate(calanderFormat);
+    // const inputParent = inputRef.current;
+    // const input = inputParent.querySelector("input");
 
-    setTimeout(() => {
-      const increament = inputParent.querySelector(".inc");
-      const decreament = inputParent.querySelector(".dec");
-      increament.addEventListener("click", () => {
-        setQuantity(parseInt(input.value));
-      });
-      decreament.addEventListener("click", () => {
-        setQuantity(parseInt(input.value));
-      });
-    }, 500);
-  }, []);
+    // setTimeout(() => {
+      // const increament = inputParent.querySelector(".inc");
+      // const decreament = inputParent.querySelector(".dec");
+      // increament.addEventListener("click", () => {
+      //   setQuantity(parseInt(input.value));
+      // });
+      // decreament.addEventListener("click", () => {
+      //   setQuantity(parseInt(input.value));
+      // });
+    // }, 500);
+  // }, []);
   return (
     <div className="modal-product-info shop-details-info pl-0" id="details">
       {/* ratings */}
@@ -181,40 +181,7 @@ const ProductDetailsRight = ({ product }) => {
         ""
       )}
       {/* add to cart */}
-      <div className="ltn__product-details-menu-2">
-        <ul>
-          <li>
-            <div className="cart-plus-minus" ref={inputRef}>
-              <input
-                onChange={(e) =>
-                  setQuantity(
-                    !parseInt(e.target.value) ? 1 : parseInt(e.target.value)
-                  )
-                }
-                type="text"
-                value={quantity}
-                name="qtybutton"
-                className="cart-plus-minus-box"
-              />
-            </div>
-          </li>{" "}
-          <li>
-            {/* <Link
-              onClick={(e) => {
-                e.preventDefault();
-                addProductToCart(productToSave);
-              }}
-              href="#"
-              className="theme-btn-1 btn btn-effect-1"
-              title="Add to Cart"
-              data-bs-toggle="modal"
-              data-bs-target="#add_to_cart_modal"
-            >
-              <i className="fas fa-shopping-cart"></i> <span>ADD TO CART</span>
-            </Link> */}
-          </li>
-        </ul>
-      </div>
+      
       {/* add to wishlist and compare */}
       {/* <div className="ltn__product-details-menu-3">
         <ul>
