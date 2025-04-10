@@ -15,5 +15,6 @@ const config: Config = {
      },
    },
  },
+ darkMode: 'false',
 }
 export default config

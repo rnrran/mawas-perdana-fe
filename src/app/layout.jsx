@@ -30,10 +30,9 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning={true}
       className={`${rajdhani.variable} ${open_sans.variable}`}
     >
-      <body className={open_sans.className}>
+      <body className={`${open_sans.className} bg-white`}>
         <Suspense fallback={<div>Loading...</div>}>
           {children}
-
           <Script src="/plugins.js" />
           <Script
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeeHDCOXmUMja1CFg96RbtyKgx381yoBU"
